@@ -1,5 +1,3 @@
-let kocka_maximum = 0
-let kocka = 0
 input.onButtonPressed(Button.A, function () {
     kocka_maximum = 6
     kocka = randint(1, kocka_maximum)
@@ -106,6 +104,10 @@ input.onButtonPressed(Button.B, function () {
             `)
     }
 })
+let kocka = 0
+let kocka_maximum = 0
+led.setBrightness(50)
+music.setVolume(255)
 basic.forever(function () {
 	
 })
